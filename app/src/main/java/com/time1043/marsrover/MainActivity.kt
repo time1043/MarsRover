@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.time1043.marsrover.ui.theme.MarsRoverTheme
-import com.time1043.marsrover.ui.view.Rover
+import com.time1043.marsrover.ui.view.RoverList
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,13 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MarsRoverTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Rover(
-                        name = "Perseverance",
-                        img = R.drawable.perseverance,
-                        landingDate = "18 February 2021",
-                        distanceTraveled = "12.56 km",
-                        modifier = Modifier.padding(innerPadding),
-                    )
+                    RoverList(modifier = Modifier.padding(innerPadding))
                 }
             }
         }

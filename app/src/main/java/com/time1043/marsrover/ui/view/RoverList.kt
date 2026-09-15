@@ -2,19 +2,40 @@ package com.time1043.marsrover.ui.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Card
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.time1043.marsrover.R
+import com.time1043.marsrover.domain.model.roverUiModelList
+
+@Composable
+fun RoverList(modifier: Modifier = Modifier) {
+    Surface(color = MaterialTheme.colorScheme.background, modifier = modifier.fillMaxSize()) {
+        LazyColumn {
+            items(count = roverUiModelList.size, itemContent = { index ->
+                Rover(
+                    name = roverUiModelList[index].name,
+                    img = roverUiModelList[index].img,
+                    landingDate = roverUiModelList[index].landingDate,
+                    distanceTraveled = roverUiModelList[index].distance
+                )
+            })
+        }
+    }
+}
 
 @Composable
 fun Rover(
@@ -22,10 +43,9 @@ fun Rover(
     img: Int,
     landingDate: String,
     distanceTraveled: String,
-    modifier: Modifier = Modifier,
 ) {
-    Card(modifier = Modifier.padding(16.dp)) {
-        Column(modifier = modifier.padding(16.dp)) {
+    Card(modifier = Modifier.padding(8.dp)) {
+        Column(modifier = Modifier.padding(16.dp)) {
             Text(
                 modifier = Modifier.fillMaxWidth(),
                 text = name,
@@ -33,7 +53,14 @@ fun Rover(
                 fontSize = 24.sp,
                 textAlign = TextAlign.Center
             )
-            Image(painter = painterResource(id = img), contentDescription = null)
+            Image(
+                painter = painterResource(id = img),
+                contentDescription = null,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 4.dp),
+                contentScale = ContentScale.FillWidth
+            )
             Text(text = "Credit: NASA/JPL", fontSize = 8.sp)
             Text(text = "Landing date: $landingDate", fontSize = 12.sp)
             Text(text = "Distance traveled: $distanceTraveled", fontSize = 12.sp)
@@ -43,11 +70,6 @@ fun Rover(
 
 @Preview
 @Composable
-fun RoverPreview() {
-    Rover(
-        name = "Perseverance",
-        img = R.drawable.perseverance,
-        landingDate = "18 February 2021",
-        distanceTraveled = "12.56 km"
-    )
+fun RoverListPreview() {
+    RoverList()
 }
