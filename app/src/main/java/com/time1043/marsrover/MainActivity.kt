@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import com.time1043.marsrover.nav.NavCompose
 import com.time1043.marsrover.ui.theme.MarsRoverTheme
-import com.time1043.marsrover.ui.view.RoverList
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MarsRoverTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    RoverList(modifier = Modifier.padding(innerPadding))
+                    NavCompose(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
