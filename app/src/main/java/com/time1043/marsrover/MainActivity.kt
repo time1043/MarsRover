@@ -7,11 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.time1043.marsrover.ui.theme.MarsRoverTheme
+import com.time1043.marsrover.ui.view.Rover
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,28 +18,15 @@ class MainActivity : ComponentActivity() {
         setContent {
             MarsRoverTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Mars Rover",
-                        modifier = Modifier.padding(innerPadding)
+                    Rover(
+                        name = "Perseverance",
+                        img = R.drawable.perseverance,
+                        landingDate = "18 February 2021",
+                        distanceTraveled = "12.56 km",
+                        modifier = Modifier.padding(innerPadding),
                     )
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    MarsRoverTheme {
-        Greeting("Android")
     }
 }
