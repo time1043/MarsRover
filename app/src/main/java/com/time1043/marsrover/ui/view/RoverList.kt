@@ -75,9 +75,3 @@ fun Rover(
         }
     }
 }
-
-@Preview
-@Composable
-fun RoverListPreview() {
-    RoverList() {}
-}
