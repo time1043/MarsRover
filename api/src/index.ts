@@ -9,9 +9,14 @@ app.get('/', (c) => {
   return c.text('Mars Rover API Server')
 })
 
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
+
 app.get('/mars-photos/api/v1/manifests/:rover_name', async (c) => {
   const roverName = c.req.param('rover_name')
   const apiKey = c.req.query('api_key')
+
+  // Mock loading state
+  await sleep(3000)
 
   // Accept any API key for local development
   try {
