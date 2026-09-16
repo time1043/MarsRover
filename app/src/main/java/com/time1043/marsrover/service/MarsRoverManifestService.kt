@@ -15,7 +15,9 @@ interface MarsRoverManifestService {
     suspend fun getMarsRoverManifest(@Path("rover_name") roverName: String): RoverManifestRemoteModel
 
     companion object {
-        private const val BASE_URL = "https://api.nasa.gov/"
+        // For real device: use your computer's local network IP (e.g., http://192.168.1.100:3000/)
+        // For emulator: use http://10.0.2.2:3000/
+        private const val BASE_URL = "http://192.168.43.205:3000/"
 
         fun create() : MarsRoverManifestService {
             val logger = HttpLoggingInterceptor()
