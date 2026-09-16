@@ -1,0 +1,79 @@
+{
+  "photo_manifest": {
+    "name": "Curiosity",
+    "landing_date": "2012-08-06",
+    "launch_date": "2011-11-26",
+    "status": "active",
+    "max_sol": 4232,
+    "max_date": "2024-09-13",
+    "total_photos": 688731,
+    "photos": [
+      {
+        "sol": 0,
+        "earth_date": "2012-08-06",
+        "total_photos": 3,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 1,
+        "earth_date": "2012-08-07",
+        "total_photos": 10,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 2,
+        "earth_date": "2012-08-08",
+        "total_photos": 15,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 3,
+        "earth_date": "2012-08-09",
+        "total_photos": 20,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 4,
+        "earth_date": "2012-08-10",
+        "total_photos": 25,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 5,
+        "earth_date": "2012-08-11",
+        "total_photos": 30,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 6,
+        "earth_date": "2012-08-12",
+        "total_photos": 35,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 7,
+        "earth_date": "2012-08-13",
+        "total_photos": 40,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 8,
+        "earth_date": "2012-08-14",
+        "total_photos": 45,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 9,
+        "earth_date": "2012-08-15",
+        "total_photos": 50,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      },
+      {
+        "sol": 10,
+        "earth_date": "2012-08-16",
+        "total_photos": 55,
+        "cameras": ["MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"]
+      }
+    ]
+  }
+}

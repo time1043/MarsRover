@@ -1,0 +1,79 @@
+{
+  "photo_manifest": {
+    "name": "Perseverance",
+    "landing_date": "2021-02-18",
+    "launch_date": "2020-07-30",
+    "status": "active",
+    "max_sol": 1325,
+    "max_date": "2024-09-13",
+    "total_photos": 335560,
+    "photos": [
+      {
+        "sol": 0,
+        "earth_date": "2021-02-18",
+        "total_photos": 4,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 1,
+        "earth_date": "2021-02-19",
+        "total_photos": 12,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 2,
+        "earth_date": "2021-02-20",
+        "total_photos": 18,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 3,
+        "earth_date": "2021-02-21",
+        "total_photos": 25,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 4,
+        "earth_date": "2021-02-22",
+        "total_photos": 30,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 5,
+        "earth_date": "2021-02-23",
+        "total_photos": 35,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 6,
+        "earth_date": "2021-02-24",
+        "total_photos": 42,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 7,
+        "earth_date": "2021-02-25",
+        "total_photos": 48,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 8,
+        "earth_date": "2021-02-26",
+        "total_photos": 55,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 9,
+        "earth_date": "2021-02-27",
+        "total_photos": 62,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      },
+      {
+        "sol": 10,
+        "earth_date": "2021-02-28",
+        "total_photos": 70,
+        "cameras": ["NAVCAM_LEFT", "NAVCAM_RIGHT", "MCZ_LEFT", "MCZ_RIGHT", "FRONT_HAZCAM_LEFT", "FRONT_HAZCAM_RIGHT", "REAR_HAZCAM_LEFT", "REAR_HAZCAM_RIGHT", "SKYCAM", "SHERLOC", "PIXCAM"]
+      }
+    ]
+  }
+}

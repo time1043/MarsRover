@@ -1,0 +1,79 @@
+{
+  "photo_manifest": {
+    "name": "Opportunity",
+    "landing_date": "2004-01-25",
+    "launch_date": "2003-07-07",
+    "status": "complete",
+    "max_sol": 5111,
+    "max_date": "2018-06-10",
+    "total_photos": 198433,
+    "photos": [
+      {
+        "sol": 0,
+        "earth_date": "2004-01-25",
+        "total_photos": 8,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 1,
+        "earth_date": "2004-01-26",
+        "total_photos": 15,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 2,
+        "earth_date": "2004-01-27",
+        "total_photos": 22,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 3,
+        "earth_date": "2004-01-28",
+        "total_photos": 28,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 4,
+        "earth_date": "2004-01-29",
+        "total_photos": 35,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 5,
+        "earth_date": "2004-01-30",
+        "total_photos": 42,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 6,
+        "earth_date": "2004-01-31",
+        "total_photos": 48,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 7,
+        "earth_date": "2004-02-01",
+        "total_photos": 55,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 8,
+        "earth_date": "2004-02-02",
+        "total_photos": 62,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 9,
+        "earth_date": "2004-02-03",
+        "total_photos": 68,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      },
+      {
+        "sol": 10,
+        "earth_date": "2004-02-04",
+        "total_photos": 75,
+        "cameras": ["FHAZ", "NAVCAM", "PANCAM", "MINITES"]
+      }
+    ]
+  }
+}
